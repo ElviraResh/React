@@ -5,7 +5,9 @@ function Header(){
   return (
     <header>
       <nav class="navbar">
-        <a class="navbar__logo" href="#"></a>
+        <a class="navbar__logo" href="#">
+          <img src="./PermLogo.jpg" alt="Permlogo" />
+        </a>
         <button class="burger js-burger"></button>
       </nav>
       <div class="menu js-menu">
