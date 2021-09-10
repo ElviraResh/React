@@ -1,25 +1,25 @@
 import logo from './PermLogo.jpg';
 import './Header.css';
 
-function Header(){
+function Header() {
   return (
     <header>
-      <nav class="navbar">
-        <a class="navbar__logo" href="#">
-          <img src="./PermLogo.jpg" alt="Permlogo" />
-        </a>
-        <button class="burger js-burger"></button>
-      </nav>
-      <div class="menu js-menu">
-        <button class="burger burger--close js-burger"></button>
-        <div class="menu__wrapper">
-          <ul class="menu__list">
-            <li class="menu__item">Главная</li>
-            <li class="menu__item">История</li>
-            <li class="menu__item">Достопримечательности</li>
+      <nav>
+        <div className="logo">
+          <a className="nav__logo" href="#">
+            <img src={logo} alt="Permlogo" /> 
+            <p>ермь Великая</p>
+          </a>
+        </div>
+        <div className="menu">
+          <ul className="menu__list">
+            <li className="menu__item">Главная</li>
+            <li className="menu__item">История</li>
+            <li className="menu__item">Достопримечательности</li>
           </ul>
         </div>
-      </div>
+      </nav>
+
     </header>
   )
 }

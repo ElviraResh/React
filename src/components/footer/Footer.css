@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  justify-content: flex-start;
+  background: rgb(214, 37, 37);
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 800;
+  color: white;
+  margin-right: 60px;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer li {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+footer h4 {
+  padding-left: 40px;
+  font-size: 20px;
+}

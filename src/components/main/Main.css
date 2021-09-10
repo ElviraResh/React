@@ -1,4 +1,86 @@
-main{
-  max-width: 1200px;
-  margin: 0 auto;
+.home-bg {
+  position: relative;
 }
+
+.home-bg img {
+  width: 100%;
+}
+
+.home__text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  margin-right: 20px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(12, 13, 46);
+}
+
+blockquote {
+  margin: 0;
+}
+
+.history__main {
+  display: flex;
+  align-items: center;
+}
+
+.history__foundation {
+  display: flex;
+  align-items: center;
+}
+
+.text-item {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+}
+
+h2 {
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+h2::before {
+  box-sizing: border-box;
+  content: '';
+  width: 1200px;
+  height: 2px;
+  background-color: rgb(214, 37, 37);
+  position: absolute;
+}
+
+.history__container p, .attraction__container p {
+  text-align: justify;
+}
+
+.flex {
+  display: flex;
+}
+
+.attraction__item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.no-flex {
+  display: block;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.mb-0{
+  margin-bottom: -4px;
+}
+
